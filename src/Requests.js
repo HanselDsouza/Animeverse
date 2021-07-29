@@ -1,4 +1,4 @@
-const API_KEY = "8564b34f860844de38ecdc4bcb7c3c2c";
+const API_KEY = "Your api key";
 const requests={
     fetchTrending: `/discover/tv?api_key=${API_KEY}&language=en-US&sort_by=popularity.desc&with_keywords=210024`,
     fetchPopularInMovies:`/discover/movie?api_key=${API_KEY}&language=en-US&sort_by=popularity.desc&page=1&with_keywords=210024`,
